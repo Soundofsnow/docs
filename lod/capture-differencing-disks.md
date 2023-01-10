@@ -6,7 +6,7 @@ isPublished: true
 
 # Capture Differencing Disks
 
-A differencing disk is a virtual hard disk (VHD) that contains changes made to another VHD. The purpose of a differencing disk is to maintain information about changes made, so that they can be revered if needed. Captured differencing disks are stored on the virtual machine (VM) profile.
+A differencing disk is a virtual hard disk (VHD) that contains changes made to another VHD. The purpose of a differencing disk is to maintain information about changes made, so that they can be reverted if needed. Captured differencing disks are stored on the virtual machine (VM) profile.
 
 Capturing differencing disks allows you to permanently persist changes you've made in your virtual machines. The changes will be present for all users that launch this lab in the future. This feature is only available to lab developers and shouldn't be mistaken as a way to temporarily save your lab. If you simply want to save your lab so you can resume it later, please use the Save and Close Lab option in the Exit menu.
 
